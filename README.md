@@ -4,6 +4,7 @@
 import numpy as np
 
 romanNumerals = np.array(['I', 'V', 'X', 'L', 'C', 'D', 'M'])
+
 romanValues = np.array([1, 5, 10, 50, 100, 500, 1000])
 def romanToDecimal(romanString):
   decimalTotal = 0
